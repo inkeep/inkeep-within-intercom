@@ -24,7 +24,7 @@ export function POST() {
             id: "trigger_button",
             action: {
               type: "sheet",
-              url: `https://${process.env.VERCEL_URL}/open-sheet`,
+              url: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/open-sheet`,
             },
           },
         ],
