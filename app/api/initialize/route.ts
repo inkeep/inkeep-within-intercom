@@ -24,7 +24,7 @@ export function GET() {
             id: "trigger_button",
             action: {
               type: "sheet",
-              url: "https://f97e3e58-e408-4247-bf30-e81e5d5f6626-00-ixd6dvzx9wg.riker.replit.dev:3000/open-sheet",
+              url: `${process.env.DOMAIN}/open-sheet`,
             },
           },
         ],
