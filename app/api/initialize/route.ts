@@ -24,7 +24,7 @@ export function GET() {
             id: "trigger_button",
             action: {
               type: "sheet",
-              url: `${process.env.DOMAIN}/open-sheet`,
+              url: `https://${process.env.VERCEL_URL}/open-sheet`,
             },
           },
         ],
