@@ -8,7 +8,7 @@ Using Intercom's Messenger Dashboard, you will be able to conditionally show/hid
 
 
 ## Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Finkeep%2Finkeep-within-intercom&env=NEXT_PUBLIC_INTERCOM_APP_ID,INKEEP_API_KEY,INKEEP_INTEGRATION_ID,INKEEP_ORGANIZATION_ID&envDescription=API%20Keys%20needed%20for%20setting%20up%20the%20Inkeep%20Chat&envLink=https%3A%2F%2Fdocs.inkeep.com%2Fintegrations%2Fnextjs%2Fsearch-bar%23get-inkeep-api-key&project-name=my-inkeep-intercom-app&repository-name=my-inkeep-intercom-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Finkeep%2Finkeep-within-intercom&env=NEXT_PUBLIC_INTERCOM_APP_ID,INKEEP_API_KEY,INKEEP_INTEGRATION_ID,INKEEP_ORGANIZATION_ID&envDescription=API%20Keys%20needed%20for%20setting%20up%20the%20Inkeep%20Chat&envLink=https%3A%2F%2Fdocs.inkeep.com%2Fintegrations%2Fnextjs%2Fembedded-chat%23get-an-inkeep-api-key&project-name=my-inkeep-intercom-app&repository-name=my-inkeep-intercom-app)
 
 
 ## Local Development; Getting Started

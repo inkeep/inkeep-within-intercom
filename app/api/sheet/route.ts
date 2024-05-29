@@ -64,6 +64,6 @@ const response = `<!doctype html>
 
 
 export function POST(request: Request) {
-
+  console.dir(request);
   return new Response(response, { status: 200, headers: { "content-type": "text/html; charset=utf-8" } });
 }
