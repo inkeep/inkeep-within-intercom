@@ -52,20 +52,20 @@ const response = `<!doctype html>
     </div>
   </body>
 </html>
-`.replace("{{INKEEP_API_KEY}}", process.env.INKEEP_API_KEY as string)
-.replace(
-  "{{INKEEP_INTEGRATION_ID}}",
-  process.env.INKEEP_INTEGRATION_ID as string,
-)
-.replace(
-  "{{INKEEP_ORGANIZATION_ID}}",
-  process.env.INKEEP_ORGANIZATION_ID as string
-);
+`
+	.replace("{{INKEEP_API_KEY}}", process.env.INKEEP_API_KEY as string)
+	.replace(
+		"{{INKEEP_INTEGRATION_ID}}",
+		process.env.INKEEP_INTEGRATION_ID as string,
+	)
+	.replace(
+		"{{INKEEP_ORGANIZATION_ID}}",
+		process.env.INKEEP_ORGANIZATION_ID as string,
+	);
 
-
-export async function POST(request: Request) {
-  const requestBody = await request.json();
-  console.dir(requestBody);
-  
-  return new Response(response, { status: 200, headers: { "content-type": "text/html; charset=utf-8" } });
+export async function POST() {
+	return new Response(response, {
+		status: 200,
+		headers: { "content-type": "text/html; charset=utf-8" },
+	});
 }

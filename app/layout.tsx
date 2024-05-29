@@ -4,17 +4,19 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Inkeep + Intercom"
+	title: "Inkeep + Intercom",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className={inter.className} style={{ margin: 0, height: "100%" }}>{children}</body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={inter.className} style={{ margin: 0, height: "100%" }}>
+				{children}
+			</body>
+		</html>
+	);
 }
