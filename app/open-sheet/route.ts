@@ -1,4 +1,4 @@
-export function GET(request: Request) {
+export function POST(request: Request) {
   return new Response(`<!doctype html>
   <html lang="en" style="height: 100%">
     <head>
