@@ -10,22 +10,6 @@ This repository demonstrates how to integrate Inkeep's AI Documentation Chat wid
 <img src="docs/assets/framed_inkeep_intercom_example_chat_session_input.png" alt="Example Messenger Input interaction" width="500"/>
 <img src="docs/assets/framed_inkeep_intercom_example_chat_session_output.png" alt="Example Messenger Output interaction" width="500"/>
 
-## Local Development
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 ## Set up instructions
 
 High level:
@@ -62,3 +46,19 @@ High level:
 *Optional*
 - Customize the Inkeep-Intercom app using elements from the [Intercom Canvas Kit](https://developers.intercom.com/docs/canvas-kit) and redefining the canvas object within the initlialize endpoint.
 - Conditionally show/hide the Inkeep Intercom app based on various user and visitor properties.
+
+## Local Development
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
