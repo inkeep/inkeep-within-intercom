@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@intercom/messenger-js-sdk": "^0.0.6",
-    "next": "14.2.3",
+    "next": "14.2.10",
     "react": "^18",
     "react-dom": "^18"
   },
