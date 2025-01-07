@@ -17,14 +17,16 @@ High level:
 - Configure the Inkeep app in the Intercom dashboard to be used by the widget
 
 ### Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Finkeep%2Finkeep-within-intercom&env=NEXT_PUBLIC_INTERCOM_APP_ID,INKEEP_API_KEY,INKEEP_INTEGRATION_ID,INKEEP_ORGANIZATION_ID&envDescription=API%20Keys%20needed%20for%20setting%20up%20the%20Inkeep%20Chat&envLink=https%3A%2F%2Fdocs.inkeep.com%2Fintegrations%2Fnextjs%2Fembedded-chat%23get-an-inkeep-api-key&project-name=my-inkeep-intercom-app&repository-name=my-inkeep-intercom-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Finkeep%2Finkeep-within-intercom&env=NEXT_PUBLIC_INTERCOM_APP_ID,INKEEP_API_KEY,INKEEP_INTEGRATION_ID,INKEEP_ORGANIZATION_ID,INKEEP_ORGANIZATION_DISPLAY_NAME,INKEEP_PRIMARY_BRAND_COLOR&envDescription=API%20Keys%20and%20configuration%20needed%20for%20setting%20up%20the%20Inkeep%20Chat&envLink=https%3A%2F%2Fdocs.inkeep.com%2Fintegrations%2Fnextjs%2Fembedded-chat%23get-an-inkeep-api-key&project-name=my-inkeep-intercom-app&repository-name=my-inkeep-intercom-app)
 
 1. **Click "Deploy to Vercel"**:
-   - [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Finkeep%2Finkeep-within-intercom&env=NEXT_PUBLIC_INTERCOM_APP_ID,INKEEP_API_KEY,INKEEP_INTEGRATION_ID,INKEEP_ORGANIZATION_ID&envDescription=API%20Keys%20needed%20for%20setting%20up%20the%20Inkeep%20Chat&envLink=https%3A%2F%2Fdocs.inkeep.com%2Fintegrations%2Fnextjs%2Fembedded-chat%23get-an-inkeep-api-key&project-name=my-inkeep-intercom-app&repository-name=my-inkeep-intercom-app)
+   - [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Finkeep%2Finkeep-within-intercom&env=NEXT_PUBLIC_INTERCOM_APP_ID,INKEEP_API_KEY,INKEEP_INTEGRATION_ID,INKEEP_ORGANIZATION_ID,INKEEP_ORGANIZATION_DISPLAY_NAME,INKEEP_PRIMARY_BRAND_COLOR&envDescription=API%20Keys%20and%20configuration%20needed%20for%20setting%20up%20the%20Inkeep%20Chat&envLink=https%3A%2F%2Fdocs.inkeep.com%2Fintegrations%2Fnextjs%2Fembedded-chat%23get-an-inkeep-api-key&project-name=my-inkeep-intercom-app&repository-name=my-inkeep-intercom-app)
 
 2. **Get variables**:
    -  `NEXT_PUBLIC_INTERCOM_APP_ID` is the Intercom workspace ID. [Learn how to find your App ID here](https://community.intercom.com/messenger-8/where-i-can-get-my-app-id-4021).
    - `INKEEP_API_KEY`, `INKEEP_INTEGRATION_ID`, `INKEEP_ORGANIZATION_ID` are the API keys for the Inkeep API. [Learn how to get your API keys here](https://docs.inkeep.com/integrations/nextjs/embedded-chat#get-an-inkeep-api-key).
+   - `INKEEP_ORGANIZATION_DISPLAY_NAME` is the name of your organization as it should appear in the chat interface (e.g., "Acme Corp").
+   - `INKEEP_PRIMARY_BRAND_COLOR` is the hex color code for your brand's primary color (e.g., "#26D6FF").
 
 3. **Complete the vercel deployment**. Get the deployment domain, e.g. `myinkeepintercomapp.vercel.com`)
 
