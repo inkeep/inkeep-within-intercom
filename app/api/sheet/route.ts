@@ -32,8 +32,8 @@ const response = `<!doctype html>
             apiKey: "{{INKEEP_API_KEY}}", // required
             integrationId: "{{INKEEP_INTEGRATION_ID}}", // required
             organizationId: "{{INKEEP_ORGANIZATION_ID}}", // required
-            organizationDisplayName: "${organizationDisplayName}",
-            primaryBrandColor: "${primaryBrandColor}",
+            organizationDisplayName: "{{INKEEP_ORGANIZATION_DISPLAY_NAME}}",
+            primaryBrandColor: "{{INKEEP_PRIMARY_BRAND_COLOR}}",
             theme: {
               components: {
                 AIChatPageWrapper: {
@@ -73,6 +73,14 @@ const response = `<!doctype html>
 	.replace(
 		"{{INKEEP_ORGANIZATION_ID}}",
 		process.env.INKEEP_ORGANIZATION_ID as string,
+	)
+	.replace(
+		"{{INKEEP_ORGANIZATION_DISPLAY_NAME}}",
+		process.env.INKEEP_ORGANIZATION_DISPLAY_NAME || "Your Organization Name"
+	)
+	.replace(
+		"{{INKEEP_PRIMARY_BRAND_COLOR}}",
+		process.env.INKEEP_PRIMARY_BRAND_COLOR || "#26D6FF"
 	);
 
 export async function POST() {
