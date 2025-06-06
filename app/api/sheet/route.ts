@@ -18,7 +18,7 @@ const response = `<!doctype html>
     <title>Open Sheet</title>
     <script
       id="inkeep-script"
-      src="https://unpkg.com/@inkeep/widgets-embed@0.2.277/dist/embed.js"
+      src="https://uikit.inkeep.com/uikit-js/0.3.18/dist/embed.js"
       type="module"
       defer
     ></script>
